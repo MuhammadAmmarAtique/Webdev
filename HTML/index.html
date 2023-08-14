@@ -1,54 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
     <style>
-        table,th,td
-        {
-            border: 2px solid black;
-            border-collapse:collapse ;
-            padding: 5px;
-        }
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- we can change types of lists -->
-   <ol type="i">
-    <li>milk</li>
-    <li>milk</li>
-    <li>milk</li>
-    <li>milk</li>
-    <li>milk</li>
-   </ol>   
-   <hr>
+    <ol type="i">
+      <li>milk</li>
+      <li>milk</li>
+      <li>milk</li>
+      <li>milk</li>
+      <li>milk</li>
+    </ol>
+    <hr />
 
-   <!-- _main & _blank does same work  -->
-   <a href="https://www.google.com" target="_blank">Google</a>
-   <hr>
+    <!-- _main & _blank does same work  -->
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <hr />
 
-   <a href="http://" target="_blank" ></a>
-   
-   
-   <!-- rowspan, colspan -->
-   <table>
-    <thead>|
-        <tr> <th> Name</th> <th>Roll No.</th> <th>Marks</th></tr>
-    </thead>
+    <a href="http://" target="_blank"></a>
 
-    <tbody>
-        <tr> <td>Ammar</td> <td>41</td> <td>870</td></tr>
-        <tr> <td>Ammar</td> <td>41</td> <td>870</td></tr>
-        <tr> <td rowspan="2">Ammar</td> <td>41</td> <td>870</td></tr>
-        <tr>  <td>41</td> <td>870</td></tr>
-    </tbody>
+    <!-- rowspan, colspan -->
+    <table>
+      <thead>
+        |
+        <tr>
+          <th>Name</th>
+          <th>Roll No.</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
 
-    <tfoot>
-        <tr> <th colspan="2">Total</th> <th>1080</th> </tr>
-    </tfoot>
-   </table>
-   
-</body>
+      <tbody>
+        <tr>
+          <td>Ammar</td>
+          <td>41</td>
+          <td>870</td>
+        </tr>
+        <tr>
+          <td>Ammar</td>
+          <td>41</td>
+          <td>870</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Ammar</td>
+          <td>41</td>
+          <td>870</td>
+        </tr>
+        <tr>
+          <td>41</td>
+          <td>870</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="2">Total</th>
+          <th>1080</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <!-- Payment Form -->
+
+    <h1>"Payment Form"</h1>
+
+    <h3>User details:</h3>
+
+    <form>
+      Full Name:<input type="text" name="Fullname" /> <br />
+      Gender:<input type="radio" name="Gender" value="male" />male
+      <input type="radio" name="Gender" value="female" />female <br />
+      Address:
+      <textarea rows="5" cols="20"> </textarea> <br />
+      Email:<input type="email" name="email" /> <br />
+      Pincode: <input type="password" name="pincode" /> <br />
+    </form>
+
+    <h3>Payment details:</h3>
+
+    <form>
+      Card type: <input type="text" name="cardtype" /> <br />
+      Card Number: <input type="number" name="cardnumber" /> <br />
+      Expiration Date: <input type="date" name="Expiration date" /> <br />
+      CVV:<input type="number" name="CVV" /> <br />
+      <button name="PayNow">PayNow</button> <br />
+    </form>
+
+
+    
+  </body>
 </html>
