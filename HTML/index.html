@@ -15,7 +15,7 @@
     </style>
   </head>
   <body>
-    <!-- we can change types of lists -->
+    <!--Lists  (we can change lists types) -->
     <ol type="i">
       <li>milk</li>
       <li>milk</li>
@@ -25,13 +25,13 @@
     </ol>
     <hr />
 
-    <!-- _main & _blank does same work  -->
+    <!--Anchor Tag's attributes (_main & _blank) does same work  -->
     <a href="https://www.google.com" target="_blank">Google</a>
     <hr />
 
     <a href="http://" target="_blank"></a>
 
-    <!-- rowspan, colspan -->
+    <!-- Table(rowspan, colspan) -->
     <table>
       <thead>
         |
@@ -74,30 +74,35 @@
 
     <hr />
 
-    <!-- Payment Form -->
+    <!-- Payment Form (cleared concepts of attributes like name,value & required) -->
 
     <h1>"Payment Form"</h1>
+    <form >
 
-    <h3>User details:</h3>
+       <h3>User details:</h3>
 
-    <form>
-      Full Name:<input type="text" name="Fullname" /> <br />
-      Gender:<input type="radio" name="Gender" value="male" />male
+      Full Name: *<input required type="text" name="Fullname" /> <br />
+      Gender: *<input required type="radio" name="Gender" value="male" />male
       <input type="radio" name="Gender" value="female" />female <br />
       Address:
       <textarea rows="5" cols="20"> </textarea> <br />
-      Email:<input type="email" name="email" /> <br />
-      Pincode: <input type="password" name="pincode" /> <br />
-    </form>
+      Email: *<input  required type="email" name="email" /> <br />
+      Pincode: <input type="number" name="pincode" /> <br />
+    
+      <h3>Payment details:</h3>
+   
+      Card type: 
+      *<select required  name="cardtype" > 
+        <option value="">--Select a card type--</option>
+         <option value="visa">visa</option>
+         <option value="master">master</option>
+         <option value="debit">debit</option>
+      </select> <br />
+      Expiration Date: *<input required type="date" name="Expiration date" /> <br />
+      CVV: *<input required type="password" name="CVV" /> <br />
+      Card Number: *<input required type="number" name="cardnumber" /> <br />
+      <input type="submit" value="Submit"> <br />
 
-    <h3>Payment details:</h3>
-
-    <form>
-      Card type: <input type="text" name="cardtype" /> <br />
-      Card Number: <input type="number" name="cardnumber" /> <br />
-      Expiration Date: <input type="date" name="Expiration date" /> <br />
-      CVV:<input type="number" name="CVV" /> <br />
-      <button name="PayNow">PayNow</button> <br />
     </form>
 
 
