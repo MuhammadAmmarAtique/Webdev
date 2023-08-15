@@ -6,23 +6,61 @@
     <title>CSS</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
+        h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        table,th,td
+        {
+            border: 2px solid black;
+            border-collapse:collapse ;
+            padding: 10px;
+            
+        }
+
+        table
+        {
+            position: relative;
+            left: 40%;
+            top: 20%;
+        }
+
+        th
+        {
+            background-color: #EA906C;
+        }
+
+        td{
+            background-color: #ECCDB4;
+        }
+
+
       
-      .box
-      {
-        border: 2px solid black;
-        height: 100px;
-        width: 100px;
-      }
+
 
     </style>
 </head>
 <body>
+   <h2>Ammar's Academic:</h2>
+    <table>
+        <thead>
+            <tr> <th>Degree</th> <th>Marks</th> <th>Percentage</th></tr>
+        </thead>
 
-    <div class="box">
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam hic fuga consectetur aliquid temporibus impedit, officia sed. Mollitia reprehenderit dolores architecto, assumenda itaque, unde saepe omnis dignissimos beatae, natus accusamus quae modi cumque vero nemo commodi officiis ducimus quaerat tenetur! Aliquid cupiditate fuga voluptatem deserunt iste ipsa explicabo vel? Quasi atque, dicta ipsum quaerat rerum sequi totam dolore illo labore harum dolores nostrum quibusdam omnis, culpa possimus doloribus quisquam fuga ducimus aut praesentium cum non! Exercitationem minima suscipit quasi veniam numquam sequi maiores repudiandae accusamus quas ducimus, voluptates eos esse non eaque debitis consequatur dolorem dolorum repellat error possimus ex!
-    </div>
+        <tbody>
+            <tr> <td>University </td> <td>3.5cgpa</td> <td>75%</td>  </tr>
+            <tr> <td>FSC </td> <td>906</td> <td>84%</td>  </tr>
+            <tr> <td>Matric </td> <td>3.5cgpa</td> <td>82%</td>  </tr>
+        </tbody>
 
-    <P>some text outside div</P>
+        <tfoot>
+        <th colspan="2">Performance</th> <td>Excellent</td> 
+        </tfoot>
+
+   
+</table>
 
 </body>
 </html>
