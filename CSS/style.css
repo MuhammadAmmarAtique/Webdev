@@ -1,20 +1,9 @@
-p
-{
-    color: green;
+
+
+h1{
+    background-color: rgba(221, 38, 160, 0.884);
+    font-family: 'Tilt Prism', cursive;
 }
 
-ul
-{
-    list-style-type:upper-roman;
-}
-
-ul li:nth-child(3)
-{
-    color: grey;
-
-}
-
-li#ll + li
-{
-    color: aqua;
-}
+p{
+    text-shadow: #FC0 1px 0 10px;}
