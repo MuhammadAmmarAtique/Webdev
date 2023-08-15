@@ -1,9 +1,21 @@
+nav 
+{
+    background-color: black;
+    overflow: hidden;
+ 
 
-
-h1{
-    background-color: rgba(221, 38, 160, 0.884);
-    font-family: 'Tilt Prism', cursive;
 }
 
-p{
-    text-shadow: #FC0 1px 0 10px;}
+nav > a
+{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+}
+
+nav a:hover
+{
+    color: rgba(255, 0, 0, 0.411);
+}
