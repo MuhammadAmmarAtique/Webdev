@@ -6,23 +6,39 @@
     <title>CSS</title>
     <link rel="stylesheet" href="style.css">
     <style>
-ol#hello{color: black;}
+        body
+        {color:gold;}
 
-ol.list {color:green;}
+        ul{
+            font-size: 20px;
+        }
 
+        .q a 
+        {
+            color:inherit ;
+        }
+
+        .w a 
+        {
+            color:initial ;
+        }
+
+        .e a 
+        {
+            color:unset ;
+        }
     </style>
-
-    
 </head>
 <body>
 
-<!-- SPECIFICITY -->
+    <!-- Controlling Inheritance -->
 
-<ol class="list" id="hello">
-    <li>apple</li>
-    <li>mangoes</li>
-    <li>bananas</li>
-</ol>
+<ul >
+    <li>default <a href="">link</a> color </li>
+    <li class="q">inherited <a href="">link</a> color </li>
+    <li class="w">initial <a href="">link</a> color </li>
+    <li class="e">unset <a href="">link</a> color </li>
+</ul>
 
 </body>
 </html>
