@@ -5,62 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-
-        h2{
-            text-align: center;
-            text-decoration: underline;
-        }
-
-        table,th,td
-        {
-            border: 2px solid black;
-            border-collapse:collapse ;
-            padding: 10px;
-            
-        }
-
-        table
-        {
-            position: relative;
-            left: 40%;
-            top: 20%;
-        }
-
-        th
-        {
-            background-color: #EA906C;
-        }
-
-        td{
-            background-color: #ECCDB4;
-        }
-
-
-      
-
-
-    </style>
 </head>
 <body>
-   <h2>Ammar's Academic:</h2>
-    <table>
-        <thead>
-            <tr> <th>Degree</th> <th>Marks</th> <th>Percentage</th></tr>
-        </thead>
-
-        <tbody>
-            <tr> <td>University </td> <td>3.5cgpa</td> <td>75%</td>  </tr>
-            <tr> <td>FSC </td> <td>906</td> <td>84%</td>  </tr>
-            <tr> <td>Matric </td> <td>3.5cgpa</td> <td>82%</td>  </tr>
-        </tbody>
-
-        <tfoot>
-        <th colspan="2">Performance</th> <td>Excellent</td> 
-        </tfoot>
-
    
-</table>
+    <form >
+
+    <h1 id="mainheading">Payment Form</h1>
+
+       <h3 class="subheading">User Information:</h3>
+
+       <p class="allnames"> Name: * </p> 
+       <input required type="text" placeholder="Danish Ali" name="Fullname" id="fullname"/> <br> <br>
+
+       <p class="allnames">Gender: *</p>
+       <input required type="radio" name="Gender" value="male" />Male
+      <input type="radio" name="Gender" value="female" />Female <br> <br>
+
+      <p class="allnames">Address: </p>
+      <textarea cols="175" rows="8"  id="address"></textarea> <br> <br>
+
+      <p class="allnames">Email: * </p>
+       <input  required type="email" placeholder="danishali123@gmail.com" name="email" id="email" /> <br> <br>
+
+       <p class="allnames">Pincode: * </p>
+       <input type="number" placeholder="1234567" name="pincode" id="pincode" /> <br>  <br>
+    
+      <h3 class="subheading">Payment Information:</h3>
+   
+      <p class="allnames">Card type: * </p>
+
+      <select required  name="cardtype" id="cardtype" > 
+        <option value="">--Select a card type--</option>
+         <option value="visa">visa</option>
+         <option value="master">master</option>
+         <option value="debit">debit</option>
+      </select> <br><br>
+
+      <p class="allnames">Expiration Date: *</p>
+      <input required type="date" name="Expiration date" id="expdate" /> <br><br>
+
+      <p class="allnames">CVV: *</p>
+      <input required type="password" placeholder="456389" name="CVV" id="password"/> <br><br>
+
+      <p class="allnames">Card Number: *</p>
+      <input required type="number" placeholder="98-7654-321"  name="cardnumber" id="cardnumber"/> <br><br>
+
+      <input type="submit" value="Pay Now" id="submit"> <br>
+
+    </form>   
+   
 
 </body>
 </html>
