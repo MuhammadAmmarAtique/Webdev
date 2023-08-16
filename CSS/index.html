@@ -1,3 +1,6 @@
+<!-- Nestle.com (Contact-us) form clone -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,50 +10,79 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+  
    
     <form >
+      <h2 id="msg">Leave us a message</h2>
 
-    <h1 id="mainheading">Payment Form</h1>
+      <p id="msgtxt">Your message will be sent to our teams worldwide, who will get back to you as soon as they can. Please be advised that weekends and public holidays might delay response time.</p>
 
-       <h3 >User Information:</h3>
+      <div id="mnd">
+        <span class="steric">*</span> <p> <i>Mandatory Fields</i></p>
+      </div>
 
-       <p class="allnames"> Name:  </p> 
-       <input required type="text" placeholder="Danish Ali" name="Fullname" id="fullname"/> <br> <br>
+      <div id="contus">
+        <span>What would you like to contact us about today?</span> <p class="steric">*</p>
+      </div>
 
-       <p class="allnames">Gender: </p>
-       <input required type="radio" name="Gender" value="male" />Male
-      <input type="radio" name="Gender" value="female" />Female <br> <br>
+      <div id="selection">
+      <div id="so">Select an Option below</div> 
+      <input type="checkbox" value="Question">Question
+      <input type="checkbox" value="Complaint">Complaint
+      <input type="checkbox" value="Compliment">Compliment
+    </div>
 
-      <p class="allnames">Address: </p>
-      <textarea id="address"></textarea> <br> <br>
 
-      <p class="allnames">Email:  </p>
-       <input  required type="email" placeholder="danishali123@gmail.com" name="email" id="email" /> <br> <br>
+    <div id="writemsg">
+     <span>Your message</span> <span class="steric">*</span>
+    </div>
 
-       <p class="allnames">Pincode:  </p>
-       <input type="number" placeholder="1234567" name="pincode" id="pincode" /> <br>  <br>
+    <textarea rows="10"></textarea>
+
+    <div id="location">
+     <span>Where are you?</span> <span class="steric">*</span>
+    </div>
+
+    <select name="countries" id="countries">
+        <option>Pakistan</option>
+        <option>India</option>
+        <option>Afghanistan</option>
+        <option>China</option>
+        <option>Iran</option>
+    </select>
+
+    <div id="name">
+        <div>
+            <p>Your first Name</p>
+            <input placeholder="First Name" id="fname" name="First name">
+        </div>
+        <div>
+            <p>Your last Name</p>
+            <input placeholder="Last Name" id="lname" name="Last name">
+        </div>
+    </div>
+
+    <h2 id="ty">Thank you. How would you like us to get in touch with you?</h2>
     
-      <h3 >Payment Information:</h3>
-   
-      <p class="allnames">Card type:  </p>
+    <div id="email">
+        <span>Email me</span> <span class="steric">*</span>
+    </div>
 
-      <select required  name="cardtype" id="cardtype" > 
-        <option value="">--Select a card type--</option>
-         <option value="visa">visa</option>
-         <option value="master">master</option>
-         <option value="debit">debit</option>
-      </select> <br><br>
+    <input type="email" placeholder="email@address.com" name="user_email" id="emailinput">
 
-      <p class="allnames">Expiration Date: </p>
-      <input required type="date" name="Expiration date" id="expdate" /> <br><br>
+    <div id="call">
+        <span>Call me</span> 
+    </div>
 
-      <p class="allnames">CVV: </p>
-      <input required type="password" placeholder="456389" name="CVV" id="password"/> <br><br>
+    <input type="number" name="user_no" placeholder="+92" id="noinput">
 
-      <p class="allnames">Card Number: </p>
-      <input required type="number" placeholder="98-7654-321"  name="cardnumber" id="cardnumber"/> <br><br>
+    <div id="last">
+    <input type="checkbox" id="privacy">I understand that Nestlé will protect my data as outlined in the <span id="pn">Privacy Notice</span> <span class="steric">*</span>
+    </div>
 
-      <input type="submit" value="Pay Now" id="submit"> <br> 
+    <input type="submit" value="SEND">
 
     </form>   
    
