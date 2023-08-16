@@ -51,7 +51,7 @@ form
 #contus
 {
     display: flex;
-    margin: 20px 0px 5px;
+    margin: 15px 0px 5px;
 }
 
 
@@ -183,5 +183,10 @@ input[type="submit"]
  color: white;
  height: 40px;
  width: 80px;
-
 }
+
+input[type="submit"]:hover
+{
+    cursor:grab;
+}
+
