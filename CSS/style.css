@@ -2,58 +2,61 @@
 {
     padding: 0px;
     margin:0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    /* margin: 15px 30px; */            /*Both above and below are same */
+    margin: 15px 30px 15px 30px;
+    font-size: 17px;
+
 }
 
 form
 {
-    background-color: rgba(231, 229, 229, 0.863);
+    background-color: #f2f2f2;
     margin: 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
 }
 
 form > h1
 {
     text-align: center;
-    border-bottom: 0.5px solid rgb(117, 115, 115);
+    border-bottom: 1px solid lightgray;
     padding: 20px;
 }
 
 form > h3
 {
+    padding: 15px 0px 15px 0px;
+}
+
+
+#fullname , #email ,#pincode ,#expdate, #password, #cardnumber, textarea, select
+{
+    width: 100%;
     padding: 10px;
-    font-weight: bolder;
-}
-
-.allnames
-{
-    margin-left: 10px;
-}
-
-#fullname , #email ,#pincode ,#expdate, #password, #cardnumber
-{
-    width: 95vw;
-    height: 20px;
-    margin-left: 10px;
-}
-
-#address
-{
-    margin-left: 10px;
-}
-
-#cardtype
-{
-    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccc;
+    margin-top: 5px;
+ 
 }
 
 #submit
 {
-    margin-left: 10px;
-    width: 95vw;
-    height: 30px;
-    background-color: 	#62c262;
+    padding: 10px;
+    width: 100%;
+    background-color:#62c262;
     border-radius: 5px;
+    border: 1px solid #cccc;
+    cursor:pointer ;
+}
 
-    /* color: #fff; background-color: #483c8b; border-color: white; */
+#submit:active
+{
+    transform: scale(0.95);
 }
 
 input[type="radio"] 
@@ -62,13 +65,4 @@ input[type="radio"]
     margin-top: 5px;
 }
 
-#mainheading 
-{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-.subheading
-{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
-}
