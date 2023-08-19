@@ -1,49 +1,38 @@
-body
+*
 {
-    background-color: lightgray;
-    margin: 25px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.box
+h1
 {
-    background-color:lightcyan;
-    height: 20vh;
-    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 133, 153);
+    color: white;
+    height: 150px;
+    font-size: 100px;
+}
+
+nav
+{
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+nav > ul
+{
+    list-style-type: none;
+}
+
+nav > ul > a
+{
+    color: white;
+    text-decoration: none;
     margin: 10px;
-    
-}
-
-.box > img
-{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#box1 > img
-{
-    display: float;
+    padding: 10px;
     float: left;
-
 }
 
-#box2 > img
-{
-    display: float;
-    float: right;
-
-}
-
-#box3 > img
-{
-    display: float;
-    float: left;
-
-}
-
-
-#box4 > img
-{
-    display: float;
-    float: right;
-}
