@@ -1,52 +1,16 @@
-*
+.container
 {
-    margin: 0px;
-    padding: 0px;
-    box-sizing:border-box ;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-.main
-{
-    height: 100vh;
-    background-color: lightgreen;
-    display: flex;
-}
-
-.ba
-{
-    width: 25%;
-    background-color: lightgray;
-    padding: 20px;
-
-}
-.bb
-{
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-}
-
-.b1
-{
-    height: 25%;
-    padding: 20px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));   /* Higher priority then grid-auto-columns */
+    grid-gap: 5px;
+    /* grid-auto-rows:minmax(200px,auto);
+    grid-auto-columns:minmax(300px,auto); */
 
 }
 
-.b2
+.item
 {
-    height: 75%;
-    background-color: white;
-    padding: 20px;
-
-}
-
-.b3
-{
-    height: 25%;
-    padding: 20px;
-
+    border: 1px solid rgb(223, 223, 223);
+    background-color: rgb(224, 58, 197);
 }
