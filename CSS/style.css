@@ -1,151 +1,77 @@
 *
 {
     padding: 0px;
-    margin: opx;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-/* BoxA styling */
-
-.boxA
+body
 {
-    height: 200px;
+}
+
+.box
+{
+    /* background-color: aqua; */
+    height: 40rem;
+    margin: 10px;
     display: flex;
+    justify-content:space-evenly;
 }
 
-.boxa
+.boxes
 {
-    width: 33%;
-    height: 195px;
+    background-color: rgb(219, 219, 219);
+    /* border: 1px solid rgb(110, 110, 110); */
     border-radius:5px ;
-    background-color: rgba(165, 42, 42, 0.774);
-    margin: 2px;
-    padding: 4px;
-    /* font-size:1.5rem ; */
-    color: white;
+    width: 30%;
+    margin: 10px;
 }
 
-.box2,.box3
-{
-    font-size:1.5rem ;
-    
-}
-
-/* .box1 styling */
-
-.box1
+.b1,.b2,.b3
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.box1>p
+img
 {
-    font-size:1.5rem ;
-    margin: 2px;
-    height: 24px;
+    width:100%;
 }
 
-.box1>.boxQ
+h1
 {
-    display: flex;
-    height: 58px;
-    /* background-color: white; */
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-weight: bolder;
 }
 
-.boxq 
+p
 {
-    width: 33%;
-    height: 50px;
-    border-radius:5px ;
-    background-color:white;
-    margin: 2px;
-    padding: 4px;
-    color: black;
-}
-
-.box1>.boxW
-{
-    display: flex;
-    height: 58px;
-    /* background-color: white; */
-}
-
-.boxw
-{
-    width: 33%;
-    height: 50px;
-    border-radius:5px ;
-    background-color:white;
-    margin: 2px;
-    padding: 4px;
-    color: black;
-}
-
-.box1>.boxE
-{
-    display: flex;
-    height: 58px;
-    /* background-color: white; */
-
+    font-size: 20px;
+    text-align: center;
 
 }
 
-.boxe
+input
 {
-    width: 33%;
-    height: 50px;
-    border-radius:5px ;
-    background-color:white;
-    margin: 2px;
-    padding: 4px;
-    color: black;
-}
-
-
-
-
-
-
-
-
-/* BoxB styling */
-
-.boxB
-{
-    height: 50px;
-    display: flex;
-}
-
-.boxb
-{
-    width: 33%;
-    height: 45px;
-    border-radius:5px ;
-    background-color: rgba(165, 42, 42, 0.774);
-    margin: 2px;
-    padding: 4px;
-    font-size:1.5rem ;
+   
+    text-align: center;
+    margin-bottom: 20px;
+    width:80%;
+    height: 60px;
+    font-size: 15px;
     color: white;
+    background-color:grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self:center ;
 }
 
-
-/* BoxC styling */
-
-.boxC
+input:active
 {
-    height: 50px;
-    display: flex;
+    transform: scale(0.9);
 }
 
-.boxc
-{
-    width: 33%;
-    height: 45px;
-    border-radius:5px ;
-    background-color: rgba(165, 42, 42, 0.774);
-    margin: 2px;
-    padding: 4px;
-    font-size:1.5rem ;
-    color: white;
-}
