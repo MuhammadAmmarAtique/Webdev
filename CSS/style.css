@@ -1,20 +1,30 @@
-.btc
+*
 {
-    background-color: aquamarine;
-    width: 100px;
-    height:100px;
-    position: absolute;
-    top: 100px;
-    left: 400px;
-    transition: width 2s, border-radius 4s, background-color 5s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
 }
 
-.btc:hover
+html,body
 {
-   
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color:red ;
+    height: 100%;
+    width: 100%;
 }
-
+/* Styling */
+.container
+{
+    display: flex;
+}
+.card h2
+{
+    margin-bottom: 5px;
+}
+.card
+{
+    /* border: 2px solid red; */
+    padding: 1rem 0.7rem;
+    margin: 1rem 0.7rem;
+    background-color:#f70776;
+    box-shadow: -5px -5px 8px 2px #680747;
+}
