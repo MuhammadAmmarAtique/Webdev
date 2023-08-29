@@ -1,17 +1,12 @@
 .container
 {
-    display: flex;
-    --color:red;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr 3fr;
 }
 
-.box
+.item
 {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    color: var(--color);
+    background-color: aliceblue;
 }
-
