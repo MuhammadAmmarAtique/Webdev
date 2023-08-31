@@ -33,8 +33,17 @@
 // console.log(a++);
 // console.log(a);
 
-
 // let b=3;
 // // console.log(--b);
 // console.log(b--);
 // console.log(b);
+
+// 3.STRINGS:-
+
+// let q ='Ammar is student of "university"';
+// let w="'Moiz' is a good boy";
+// let e=`"Rafeh" is a pro 'developer'`;
+// let r= q.length;
+// let t=`Atiq has 3 sons. 1) ${e}, 2) ${q}, 3)${w}. `;
+
+// console.log(t);
