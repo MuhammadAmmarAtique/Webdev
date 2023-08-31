@@ -26,7 +26,7 @@
 
 // let a=2;
 // let b=3;
-// console.log(a**3);
+// console.log(a**b);
 
 // let a=1;
 // // console.log(++a);
@@ -34,8 +34,8 @@
 // console.log(a);
 
 // let b=3;
-// // console.log(--b);
 // console.log(b--);
+// // console.log(--b);
 // console.log(b);
 
 // 3.STRINGS:-
@@ -47,3 +47,53 @@
 // let t=`Atiq has 3 sons. 1) ${e}, 2) ${q}, 3)${w}. `;
 
 // console.log(t);
+
+// 4.String Functions:
+
+// a.indexof()
+// let a='it is mad';
+// let b=a.indexOf('is');
+// console.log(b);
+
+// b.lastindexof()
+// let a='ammar is good but he is shy';
+// let b=a.lastIndexOf('is');
+// console.log(b);
+
+// c.slice()
+// let portion= str.slice(-16);
+// let str= "I am a software engineer and My name is Ammar";
+// console.log(portion);
+
+// d.substring()
+// let a='DANISH IS A SCAMMER,NOT A GAMMER';
+// let b=a.substring(12);
+// console.log(b);
+
+// e.replace()
+// let x="hamid is not good in studies";
+// let y=x.replace('not','very');
+// console.log(y);
+
+
+// f+g.uppercase() /  .lowercase()
+// let m="ammar";
+// console.log(m.toUpperCase());
+
+// h.string concantenate 
+// let g="Ammar";
+// let h='is a good boy';
+// let i= g.concat( h);
+// console.log(i);
+
+// i.trim()
+// let o ="    How are   you?    "
+// console.log(o);
+// console.log(o.trim());
+
+// j.charat()
+// let o=`Ammar`;
+// let p=o.charAt(3);
+// console.log(p);
+
+
