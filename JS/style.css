@@ -3,3 +3,8 @@ h1{
     text-align: center;
     background-color: rgb(34, 230, 230);
 }
+
+h2,p
+{
+    text-align: center;
+}

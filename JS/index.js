@@ -146,5 +146,48 @@
 //         break;
 // }
 
+// 7.Arrays and Objects
+
+// a)OBJECT
+let student =
+{
+    name: "MuhammadAmmarAtique",
+    uni: "uoh",
+    age:'22',
+    year:'3rd year',
+    city:'toba',
+    "city 2":'haripur'
+
+}
+// console.log(student);
+
+// How to acess objects key value ?
+
+// console.log(student.name);
+// console.log(student.city);
+// console.log(student['city 2']);
+
+
+
+// b)ARRAY
+
+// let arr=[1,21,13,"Ammar",null,undefined];    //1st way to declare an array
+// console.log(arr);
+
+// let names= new Array ("ammar",21);       //2nd way to declare an array
+// console.log(names);
+
+
+// ARRAY FUNCTIONS:-
+
+// console.log(arr.length);
+// console.log(arr.sort());
+// console.log(arr.toString());
+// console.log(arr);
+
+// let array=[1,5,7,3,9,0,10];
+// console.log(array);
+
+
 
 
