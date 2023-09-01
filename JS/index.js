@@ -92,8 +92,59 @@
 // console.log(o.trim());
 
 // j.charat()
-// let o=`Ammar`;
 // let p=o.charAt(3);
+// let o=`Ammar`;
 // console.log(p);
+
+
+// 5.Scope (global scope vs block scope)
+// let a = `ammar`;
+// console.log(a);
+//  a = `apple`;
+// console.log(a);
+
+// 6.Conditional Statements
+
+// a) If else
+// let age;
+// age=prompt('Enter your age');
+// if (age<=0 || age>120)
+// {
+//     console.log(`Incorrect input.`);
+// }
+// else if (age>=18)
+// {
+//     console.log('You are an adult now!');
+// }
+// else
+// {
+//     console.log(`You are a kid.`)
+// }
+
+// b)Switch Case
+// const age=18;
+// switch (age) 
+// {
+//     case 12:
+//         console.log('you are 12 years old!')
+//     break;
+
+//     case 14:
+//         console.log('you are 14 years old!')
+//     break;
+
+//     case 16:
+//         console.log('you are 16 years old!')
+//     break;
+
+//     case 18:
+//         console.log('you are 18 years old!')
+//     break;
+
+//     default:
+//         console.log('You are neither 12,14,16 nor 18 years old.')
+//         break;
+// }
+
 
 
