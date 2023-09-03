@@ -278,6 +278,33 @@
 // }
 // }
 
+// 9.Alert,Prompt,Confirm
+
+// let name=prompt("what is your name?","Guest");
+
+// let deletee=confirm("Do you really want to delete this post man ?");
+// // console.log(deletee);
+
+// if(deletee)
+// {
+//     console.log("Your post is deleted succesfully!");
+// }
+
+// else
+// {
+//     console.log("Your post is not deleted!");
+// }
+
+// let age=prompt("Enter you age!");
+// if(age>=18)
+// {
+//     console.log("You can go to club!");
+// }
+// else
+// {
+//     console.log("Sorry you cannot go to this club!");
+// }
+
 
 
 
