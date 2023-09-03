@@ -149,16 +149,16 @@
 // 7.Arrays and Objects
 
 // a)OBJECT
-let student =
-{
-    name: "MuhammadAmmarAtique",
-    uni: "uoh",
-    age:'22',
-    year:'3rd year',
-    city:'toba',
-    "city 2":'haripur'
+// let student =
+// {
+//     name: "MuhammadAmmarAtique",
+//     uni: "uoh",
+//     age:'22',
+//     year:'3rd year',
+//     city:'toba',
+//     "city 2":'haripur'
 
-}
+// }
 // console.log(student);
 
 // How to acess objects key value ?
@@ -187,6 +187,96 @@ let student =
 
 // let array=[1,5,7,3,9,0,10];
 // console.log(array);
+
+// 8.Functions in JS
+
+// let name1="Ammar";
+// let name2="Rafeh";
+// let name3="Moiz";
+// let greet="Good morning!";
+
+// function character(name,greeting)
+// {
+
+//     console.log(greeting, name)
+//     console.log(name + " is a good boy");
+// }
+
+// character(name1,greet);
+// character(name2,greet);
+// character(name3,greet);
+
+
+// let greeting=" I hope you are good!";
+// let name1="Ammar";
+// let name2="Rafeh";
+// let name3="Moiz";
+
+// function intro(name,greet=" All good!")
+// {
+//     console.log(name + greet );
+//     return(name + greet);
+// }
+// intro(name1,greeting);
+// intro(name2);
+// intro(name3,greeting);
+
+// let reaction=intro(name3,greeting);
+// console.log(reaction);
+
+
+// function sum(a,b)
+// {
+//     c=a+b;
+//     return "The result of the sum is " + c;
+// }
+
+// let d=sum(1,2);
+// console.log(d);
+
+// Calclator using function and if else
+
+// let decision=parseInt(prompt("Welcome to Ammar's Calculator:\nPress 1 for addition , 2 for substration, 3 for multiplication, 4 for division"));
+
+// if(decision==1 || decision==2 || decision==3 || decision==4)
+// {
+//     let a=parseFloat(prompt("Enter value of 1st number:"));
+//     let b=parseFloat(prompt("Enter value of 2nd number:"));
+//     calculations(a,b);
+// }
+// else
+// {
+//     alert("Sorry invalid entry");
+// }
+
+// function calculations(a,b)
+// {
+
+// if(decision==1)
+// {
+//     let c=a+b;
+//     alert("The addition of two numbers is: "+ c);
+// }
+
+// else if(decision==2)
+// {
+//     let c=a-b;
+//     alert("The substraction of two numbers is: "+ c);
+
+// }
+// else if(decision==3)
+// {
+//     let c=a*b;
+//     alert("The multiplication of two numbers is: "+ c);
+
+// }
+// else if(decision==4)
+// {
+//     let c=a/b;
+//     alert("The division of two numbers is: "+ c);
+
+// }
+// }
 
 
 
