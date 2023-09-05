@@ -330,12 +330,57 @@
 
 //b) for each loop
 
-let grocery=["Aallo","Tamatar","pyaaz"];
+// let grocery=["Aallo","Tamatar","pyaaz"];
 
-function element(value) {
-    console.log(value);
+// function element(value) {
+//     console.log(value);
+// }
+
+// grocery.forEach(element);
+
+
+// c) for of loop
+// for (element of grocery) {
+//    console.log(element);
+// }
+
+// Again practicing for loop
+
+
+// let student=['Ammar',21,"uoh","student"];
+
+// for (let i = 0; i < student.length; i++) {
+//     console.log(student[i] + " (for loop result)");   
+// }
+
+// console.log(" \n ");
+
+// student.forEach(
+//     function show(element)
+//     {console.log(element + " (for-each loop result)");}
+// );
+
+// console.log(" \n ");
+
+// for (element of student)
+//  {
+//     {console.log(element + " (for-of loop result)");}
+// }
+
+// How to iterate an object using loops ? (by using for-in loop)
+
+
+let employee=
+{
+name:"Ammar",
+post:"Teacher",
+"bef sal":32000,
+"aft sal":60000,
+age:42
+};
+
+for (key in employee) 
+{
+    console.log( `The ${key} of employee is ${employee[key]} ` );
 }
-
-grocery.forEach(element);
-
-
+ 
