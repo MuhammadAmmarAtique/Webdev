@@ -305,6 +305,37 @@
 //     console.log("Sorry you cannot go to this club!");
 // }
 
+// 10.Loops in JS
 
+// a)for loop
+
+// for (let i = 0; i < 4; i++)
+// {
+//     console.log(i);
+// }
+
+// let friends =["Ammar","Rafeh","Anas","Zohaib","Moiz"];
+
+// for(let i=0; i<friends.length; i++)
+// {
+//     console.log(friends[i]);
+// }
+
+
+// for (let index = 0; index < friends.length; index++) {
+//     const element = friends[index];
+//     console.log(element);
+    
+// }
+
+//b) for each loop
+
+let grocery=["Aallo","Tamatar","pyaaz"];
+
+function element(value) {
+    console.log(value);
+}
+
+grocery.forEach(element);
 
 
