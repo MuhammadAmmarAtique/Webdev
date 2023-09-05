@@ -370,17 +370,37 @@
 // How to iterate an object using loops ? (by using for-in loop)
 
 
-let employee=
-{
-name:"Ammar",
-post:"Teacher",
-"bef sal":32000,
-"aft sal":60000,
-age:42
-};
+// let employee=
+// {
+// name:"Ammar",
+// post:"Teacher",
+// "bef sal":32000,
+// "aft sal":60000,
+// age:42
+// };
 
-for (key in employee) 
-{
-    console.log( `The ${key} of employee is ${employee[key]} ` );
-}
+// d)for-in loop
+
+// for (key in employee) 
+// {
+//     console.log( `The ${key} of employee is ${employee[key]} ` );
+// }
  
+
+// e)while + do while loop
+
+// let i=0;
+// while (i<10) 
+// {
+//     console.log("We are at number " + i);
+//     i=i+1;   
+// }
+
+// let i=0;
+
+// do {
+//     console.log("I am number " + i);
+//     i=i+1;
+// } 
+
+// while (i<5);
