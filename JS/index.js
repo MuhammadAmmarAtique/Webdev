@@ -463,3 +463,8 @@
 // console.log(hi);
 
 // console.log(hi[1]);
+
+// C+D).queryselector()  &  .queryselectorAll()
+
+let qs=document.querySelectorAll('#main > ul > li');
+console.log(qs);
