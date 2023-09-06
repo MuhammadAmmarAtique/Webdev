@@ -404,3 +404,62 @@
 // } 
 
 // while (i<5);
+
+
+// Again practicing all loops:
+
+
+// let market=["Xenon","Hattar",32,"kpk"];
+
+// for(let i=0; i<market.length; i++)
+// {
+//     console.log(market[i]);
+// };
+
+// market.forEach(
+//     function display(element)
+//     {console.log(element);}
+// );
+
+
+// for (element of market)
+// {
+//     console.log(element);
+// }
+
+// let  bicyle={
+//     name:"pheonix",
+//     model:2010,
+//     gender:"both",
+//     usage:"adult",
+//     "usage 2":"small kids but with extra 2 tires"
+// }
+
+
+// for (key in bicyle)
+// {
+    
+//     console.log( `The ${key} of bicyle is ${bicyle[key]}` );
+// }   
+
+
+// 11.DOM Manipualtion in JS 
+
+// A).getElementById() + .innerHTML
+
+// let select =document.getElementById("main");
+// console.log(select);
+
+// let show=select.innerHTML;
+// console.log(show);
+
+// main.innerHTML=    
+
+// '\n    <ul>\n        <li>our Home</li>\n        <li>Not About us</li>\n        <li>Contact us</li>\n        <li>Learn More</li>\n    </ul>\n'  ;
+
+// B).getElementByClassName( )
+
+// let hi=document.getElementsByClassName("container");
+// console.log(hi);
+
+// console.log(hi[1]);
