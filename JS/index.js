@@ -473,5 +473,17 @@
 // 12.Browser Events & Listening to them
 
 
+function showhide()
+{
+    if(para.style.display!='none')
+    {
+        para.style.display='none';
+    }
 
+    else
+    {
+        para.style.display='block';
+
+    }
+}
 
