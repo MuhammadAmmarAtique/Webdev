@@ -443,7 +443,7 @@
 // }   
 
 
-// 11.DOM Manipualtion in JS 
+// 11.DOM Manipualtion in JS (Navigating the DOM)
 
 // A).getElementById() + .innerHTML
 
@@ -466,5 +466,12 @@
 
 // C+D).queryselector()  &  .queryselectorAll()
 
-let qs=document.querySelectorAll('#main > ul > li');
-console.log(qs);
+// let qs=document.querySelectorAll('#main > ul > li');
+// console.log(qs);
+
+
+// 12.Browser Events & Listening to them
+
+
+
+
