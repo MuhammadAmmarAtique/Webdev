@@ -472,9 +472,12 @@
 
 // 12.Browser Events & Listening to them
 
+//a) Click event & here showhide() is a click event handler
 
 function showhide()
 {
+    let para=document.getElementById('para');
+
     if(para.style.display!='none')
     {
         para.style.display='none';
@@ -487,3 +490,16 @@ function showhide()
     }
 }
 
+// b)mouse-over/ mouse-out Events/ Add event listener
+
+let paragraph=document.getElementById('para');
+
+paragraph.addEventListener('mouseover' ,function display() {
+    console.log("Mouse is over paragrapgh element");   
+}
+);
+
+paragraph.addEventListener('mouseout' ,function display() {
+    console.log("Now, Mouse is outside paragrapgh element");   
+}
+);
