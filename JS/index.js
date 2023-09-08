@@ -474,32 +474,60 @@
 
 //a) Click event & here showhide() is a click event handler
 
-function showhide()
-{
-    let para=document.getElementById('para');
+// function showhide()
+// {
+//     let para=document.getElementById('para');
 
-    if(para.style.display!='none')
-    {
-        para.style.display='none';
-    }
+//     if(para.style.display!='none')
+//     {
+//         para.style.display='none';
+//     }
 
-    else
-    {
-        para.style.display='block';
+//     else
+//     {
+//         para.style.display='block';
 
-    }
-}
+//     }
+// }
 
-// b)mouse-over/ mouse-out Events/ Add event listener
+// // b)mouse-over/ mouse-out Events/ Add event listener
 
-let paragraph=document.getElementById('para');
+// let paragraph=document.getElementById('para');
 
-paragraph.addEventListener('mouseover' ,function display() {
-    console.log("Mouse is over paragrapgh element");   
-}
-);
+// paragraph.addEventListener('mouseover' ,function display() {
+//     console.log("Mouse is over paragrapgh element");   
+// }
+// );
 
-paragraph.addEventListener('mouseout' ,function display() {
-    console.log("Now, Mouse is outside paragrapgh element");   
-}
-);
+// paragraph.addEventListener('mouseout' ,function display() {
+//     console.log("Now, Mouse is outside paragrapgh element");   
+// }
+// );
+
+
+// 13.JS Setinterval and SetTimeout
+
+
+// function greet(name1,name2)
+// {
+
+//     console.log("Hello ki haal chaal!" + name1 + name2);
+// }
+
+// setTimeout(greet, 3000," Ammar"," M.Rafeh");
+// setInterval (greet, 3000," Ammar"," Rafeh");
+
+// Using fatarrow function for settimeout & setinterval
+
+// setTimeout(() => {
+//     console.log("Hello from settimeout function!");
+    
+// }, 2000);
+
+// let siid= setInterval(() => {
+//     console.log("Hello from setinterval function!");
+    
+// }, 2000);
+
+// clearTimeout(siid);
+
