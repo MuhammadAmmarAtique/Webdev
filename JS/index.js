@@ -531,3 +531,13 @@
 
 // clearTimeout(siid);
 
+// Displaying a real time:
+
+// function timefunction()
+
+// {
+//   let time=new Date();
+//   document.getElementById('showingtime').innerHTML=time;
+// }
+
+// setInterval(timefunction,1000);
