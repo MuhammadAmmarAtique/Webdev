@@ -541,3 +541,72 @@
 // }
 
 // setInterval(timefunction,1000);
+
+
+// 14.JS Date and Time
+
+
+// let dt=new Date();
+// console.log(dt);
+
+// what is this date-object reference, to see it put 0 inside ()
+
+// let dt=new Date(0);
+// console.log(dt);
+
+// How to initialize date
+//new Date(year,month,date,hour,minutes,seconds)   note:month index starts from 0            
+
+// Date Methods
+// let dt=new Date(2029,1,1,10,12,4);
+// console.log(dt);
+
+// let year=dt.getFullYear();
+// console.log(year);
+
+// let month=dt.getMonth();
+// console.log(month);
+
+// let date=dt.getDate();
+// console.log(date);
+
+// let hours=dt.getHours();
+// console.log(hours);
+
+// let minutes=dt.getMinutes();
+// console.log(minutes);
+
+// let seconds=dt.getSeconds();
+// console.log(seconds);
+
+// How to set date,year,month etc
+
+// let dt=new Date();
+// console.log(dt);
+
+// 
+// dt.setDate(13);
+// console.log(dt);
+
+// dt.setFullYear(2024);
+// console.log(dt);
+
+// dt.setHours(5);
+// console.log(dt);
+
+// dt.setMonth(5);
+// console.log(dt);
+
+// dt.setSeconds(24);
+// console.log(dt);
+
+
+
+
+
+
+
+
+
+
+
