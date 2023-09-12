@@ -600,9 +600,25 @@
 // dt.setSeconds(24);
 // console.log(dt);
 
+// 15. Fat arrow functions
+
+// ES5
+function greeting(name1,name2)
+{
+    return "Hello!"+name1+name2;
+}
+
+let display=greeting(" Rafeh"," Ammar.");
+console.log(display);
 
 
+// ES6
+let greeting2=(name1,name2)=> {
+    return "Hello!"+name1+name2;
+}
 
+let display2=greeting2(" Ali"," Ahmad.");
+console.log(display2);
 
 
 
