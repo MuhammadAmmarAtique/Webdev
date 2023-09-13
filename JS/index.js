@@ -603,25 +603,61 @@
 // 15. Fat arrow functions
 
 // ES5
-function greeting(name1,name2)
-{
-    return "Hello!"+name1+name2;
-}
+// function greeting(name1,name2)
+// {
+//     return "Hello!"+name1+name2;
+// }
 
-let display=greeting(" Rafeh"," Ammar.");
-console.log(display);
-
-
-// ES6
-let greeting2=(name1,name2)=> {
-    return "Hello!"+name1+name2;
-}
-
-let display2=greeting2(" Ali"," Ahmad.");
-console.log(display2);
+// let display=greeting(" Rafeh"," Ammar.");
+// console.log(display);
 
 
+// // ES6
+// let greeting2=(name1,name2)=> {
+//     return "Hello!"+name1+name2;
+// }
 
+// let display2=greeting2(" Ali"," Ahmad.");
+// console.log(display2);
+
+
+// 16. this KEYWORD (This topic is remaining to learn)
+
+// 17. Math Object 
+
+// a)Printing Math object
+
+// console.log(Math);
+
+// b)Printing Math constants
+
+// console.log(Math.PI);
+// console.log(Math.E);
+
+// c)Printing Math Functions
+
+// let num1= 12.4;
+// let num2= 1.4;
+
+// console.log(num1,num2);
+// console.log(Math.round(num1),Math.round(num2));
+
+// console.log(Math.floor(Math.random()*100));
+
+// console.log(Math.sqrt(36));
+// console.log(Math.sqrt(4));
+// console.log(Math.sqrt(20));
+// console.log(Math.sqrt(81));
+
+
+// console.log(Math.ceil(5.8));
+// console.log(Math.floor(5.8));
+
+// console.log(Math.sin(1.5708));
+// console.log(Math.cos(1.5708));
+// console.log(Math.tan(1.5708));
+
+// console.log(Math.max(0,-9,892,1));
 
 
 
