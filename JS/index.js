@@ -660,5 +660,87 @@
 // console.log(Math.max(0,-9,892,1));
 
 
+// 18.Functions in ES5 vs ES6
+// ES5
+
+// a)Function Statement
+
+// function greeting(name="Ammar") {
+//     console.log("Hello "+ name);
+// }
+// greeting("Rafeh");
+
+// b)Function Expression
+
+//  let greeting=function()
+//  {
+// console.log("Hello form Function Expression");
+//  }
+//  greeting();
+
+
+// c)Anonymous Function 
+
+// setInterval(function()
+// {console.log("hello");}, 1000);
+
+// setInterval(() => {
+//     console.log("hello from fat arrow anonymous function");
+// }, 1000);
+
+// ES6
+// let greeting=()=>
+// {
+//     console.log("Hello from fat arrow function");
+// }
+// greeting();
+
+// Again Practing Functions
+
+// function name()
+// {
+//     console.log("hello1");
+
+// }
+
+// let name2=function()
+// {
+//     console.log("hello2");
+
+// }
+
+// setTimeout(function()
+// {
+//     console.log("hello3");
+// }, 1000);
+
+// name();
+// name2();
+
+// let name3= ()=>{console.log("hello4");}
+// name3();
+
+// 19.JSON in JS
+
+let obj= {
+    name:"ammar",
+    class:12,
+    friend:"danish",
+    age:21
+}
+
+console.log(obj);
+
+// JSON.stringify()
+let jsonstr=JSON.stringify(obj);
+console.log(jsonstr);
+
+// JSON.parse()
+
+let newobj=JSON.parse(jsonstr);
+console.log(newobj);
+
+
+
 
 
