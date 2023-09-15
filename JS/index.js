@@ -722,25 +722,36 @@
 
 // 19.JSON in JS
 
-let obj= {
-    name:"ammar",
-    class:12,
-    friend:"danish",
-    age:21
-}
+// let obj= {
+//     name:"ammar",
+//     class:12,
+//     friend:"danish",
+//     age:21
+// }
 
-console.log(obj);
+// console.log(obj);
 
-// JSON.stringify()
-let jsonstr=JSON.stringify(obj);
+// // JSON.stringify()
+// let jsonstr=JSON.stringify(obj);
+// console.log(jsonstr);
+
+// // JSON.parse()
+
+// let newobj=JSON.parse(jsonstr);
+// console.log(newobj);
+
+let person={name:"ammar",age:21};
+
+let jsonstr=JSON.stringify(person);
 console.log(jsonstr);
 
-// JSON.parse()
+// {"name":"ammar","age":21}
 
-let newobj=JSON.parse(jsonstr);
+let dis=jsonstr.replace("ammar","rafeh");
+console.log(dis);
+
+let dis2=dis.replace(21,24);
+console.log(dis2);
+
+let newobj=JSON.parse(dis2);
 console.log(newobj);
-
-
-
-
-
