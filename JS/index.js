@@ -732,6 +732,7 @@
 // console.log(obj);
 
 // // JSON.stringify()
+
 // let jsonstr=JSON.stringify(obj);
 // console.log(jsonstr);
 
@@ -740,18 +741,30 @@
 // let newobj=JSON.parse(jsonstr);
 // console.log(newobj);
 
-let person={name:"ammar",age:21};
 
-let jsonstr=JSON.stringify(person);
-console.log(jsonstr);
+// 20. JS IN ONE VIDEO BY CODE WITH HARRY 
+// (DOM MANIPULATION)
 
-// {"name":"ammar","age":21}
 
-let dis=jsonstr.replace("ammar","rafeh");
-console.log(dis);
+// document.getElementById('para').innerHTML="My Name is Ammar!";
+// document.getElementById('para').style.color="red";
 
-let dis2=dis.replace(21,24);
-console.log(dis2);
+// document.getElementById('btn').classList.add('color');
+// document.getElementById('btn').classList.replace('color','color2');
+// document.getElementById('btn').classList.toggle('color');
 
-let newobj=JSON.parse(dis2);
-console.log(newobj);
+// 21. Event Listeners
+// para.style.border="2px solid black";
+
+// let para=document.querySelector('#para');
+// para.addEventListener('mousedown',function()
+// {
+// console.log("clicked");
+// })
+
+// para.addEventListener('mouseup',function()
+// {
+// console.log("released");
+// })
+
+// 22.Local Storage in JS
