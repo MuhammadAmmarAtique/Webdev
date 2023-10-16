@@ -770,16 +770,16 @@
 // 22.Local Storage in JS
 // 23.JSON
 
-let door={
-    name:'shahi',
-    material:'wood',
-    size:'full large'
-};
+// let door={
+//     name:'shahi',
+//     material:'wood',
+//     size:'full large'
+// };
 
 
-console.log(door);
-let newdoorstr=JSON.stringify(door);
-console.log(newdoorstr);
+// console.log(door);
+// let newdoorstr=JSON.stringify(door);
+// console.log(newdoorstr);
 
-let newdoorobj=JSON.parse(newdoorstr);
-console.log(newdoorobj);
+// let newdoorobj=JSON.parse(newdoorstr);
+// console.log(newdoorobj);
