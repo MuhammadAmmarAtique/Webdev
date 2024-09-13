@@ -14,7 +14,7 @@ This repository contains my practice work for HTML, CSS, and JavaScript concepts
 
 ### 3) JavaScript
 - **Files:** `index.html`, `index.css`, `index.js`
-- **Description:** The `index.js` file contains a comprehensive practice of various JavaScript concepts. With 785 lines of code, it covers:
+- **Description:** The `index.js` file contains a comprehensive practice of various JavaScript concepts. It covers:
   - Variables, Operators, Strings & String Functions
   - Scope & Conditional Statements
   - Arrays, Objects & Array Methods
